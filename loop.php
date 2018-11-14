@@ -1,7 +1,7 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 	<!-- article -->
-	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="col-3"><article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<!-- post thumbnail -->
 		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
@@ -27,7 +27,7 @@
 
 		<?php edit_post_link(); ?>
 
-	</article>
+	</article></div>
 	<!-- /article -->
 
 <?php endwhile; ?>

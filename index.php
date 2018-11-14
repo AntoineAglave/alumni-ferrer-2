@@ -43,11 +43,14 @@
 	</div> <!--STATIQUE-->
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
-
+			
+			<div class="container">
+			<div class="row">
 			<?php get_template_part('loop'); ?>
 
 			<?php get_template_part('pagination'); ?>
-
+			</div>		
+			</div>
 		</section>
 		<!-- /section -->
 	</main>
