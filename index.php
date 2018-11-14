@@ -13,7 +13,7 @@
 		<div class="row align-items-center mt-5">
 		<div class="col-xl-6 col-12">
 			<div class="col-10 mx-auto index">	
-				<img alt="left" src="accomplishment-achievement-education-1139319.jpg" class="img-fluid">
+				<img alt="left" src="https://images.pexels.com/photos/1139319/pexels-photo-1139319.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid">
 			</div>
 						<div class="box mx-auto blue"></div>
 			
@@ -35,12 +35,62 @@
 		
 		<div class="col-xl-6 col-12">
 			<div class="col-10 mx-auto index">
-				<img src="accomplishment-achievement-caps-1184580.jpg" class="img-fluid">
+				<img src="https://images.pexels.com/photos/1184580/pexels-photo-1184580.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid">
 			</div>
 			<div class="box mx-auto green"></div>
 		</div>	
 		</div>
 	</div> <!--STATIQUE-->
+            
+            <!-- SLIDER-->
+            <section id="slider" class="container-fluid">
+            
+			<div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="3000">					
+             <?php 
+               $number = 0;
+            ?>
+            <ol class="carousel-indicators">
+
+                <?php query_posts('category_name=slider');
+                while(have_posts()): the_post(); ?>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="<?php echo $number++; ?>"></li>
+                  <?php endwhile; ?>
+            </ol>
+
+            <div class="carousel-inner ">
+
+                <?php query_posts('category_name=slider');
+                     while ( have_posts() ) : the_post(); ?>
+                <div class="carousel-item">
+
+                <a href="<?php echo get_permalink(); ?>">
+                  <?php the_post_thumbnail( $size = 'post-thumbnail', $attr = '' );?>
+            <div class="carousel-caption d-none d-sm-block">
+                <h5><?php the_title(); ?></h5>
+                <p><?php //the_excerpt(); ?></p>
+                <!--<p> <?php 
+            foreach((get_the_category()) as $cat) { 
+            echo $cat->cat_name . ' '; 
+            } ?> </p>-->
+              </div>
+                    </a>
+
+                </div>
+              <?php endwhile;
+                wp_reset_query();?>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+              </div>
+              </div>
+            </section>
+				
+				<!-- /SLIDER -->
 
 			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 			
@@ -52,6 +102,7 @@
 			</div>		
 			</div>
 		</section>
+		
 		<!-- /section -->
 	</main>
 

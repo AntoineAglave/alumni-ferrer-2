@@ -17,6 +17,12 @@
 		<?php wp_footer(); ?>
 
 		<!-- analytics -->
+		<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/scripts_test.js"></script>
+		
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){
 		(f[s].q=f[s].q||[]).push(arguments)},f[s].l=1*new Date();h=i.createElement(r),
@@ -25,9 +31,6 @@
 		ga('create', 'UA-XXXXXXXX-XX', 'yourdomain.com');
 		ga('send', 'pageview');
 		</script>
-		<script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+		
 	</body>
 </html>
