@@ -10,7 +10,7 @@
 	</div>
 	
 	<div class="container-fluid">
-		<div class="row align-items-center mt-5">
+		<div class="row align-items-center mt-5 p-0 m-0">
 		<div class="col-xl-6 col-12">
 			<div class="col-10 mx-auto index">	
 				<img alt="left" src="https://images.pexels.com/photos/1139319/pexels-photo-1139319.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid">
@@ -25,7 +25,7 @@
 		</div>
 		</div>	
 		</div>
-		<div class="row align-items-center mt-5">
+		<div class="row align-items-center mt-5 p-0 m-0">
 		<div class="col-xl-6 col-12 text-right">
 			<div class="col-10 mx-auto">
 		<h2 class="pb-3">Dolor sit amet</h2>	
