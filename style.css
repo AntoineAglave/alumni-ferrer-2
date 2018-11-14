@@ -1,6 +1,66 @@
-/*@import "style-antoine";
-@import "style-laura";
-@import "style-hafsa";
-@import "style-mohamad";*/
+.center {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  right: 0;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); }
+
+.background {
+  background-image: url(achievement-cap-celebrate-1205651.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: center; }
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 2rem;
+  letter-spacing: 1vw;
+  text-transform: uppercase;
+  color: black; }
+
+h1 span {
+  letter-spacing: initial;
+  font-size: 8rem; }
+
+p {
+  font-family: 'Fira Sans', sans-serif; }
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem; }
+
+h2::before {
+  position: absolute;
+  height: 2px;
+  width: 50px; }
+
+.box {
+  width: 90%;
+  height: 21vh;
+  margin-top: -17vh;
+  position: relative;
+  z-index: 1; }
+
+.index {
+  z-index: 1000; }
+
+.blue {
+  background-color: #1b97ce; }
+
+.green {
+  background-color: #76b729; }
+
+h2::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  background-color: black; }
+
 body {
   background-color: white; }
