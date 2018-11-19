@@ -92,24 +92,21 @@
 				
 				<!-- /SLIDER -->
 				<section class="container">
-				<div class="row filter">
-					<div id="accueil" class="button col-12 col-md-1 mt-md-0 mt-2 tri" data-filter="article"><a>Tout</a></div>
-					<div id="art" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="arts-appliques"><a>Arts appliqués</a></div>
-					<div id="eco" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="economique-cooremans"><a>Economie</a></div>
-					<div id="para" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="paramedical"><a>Paramédicale</a></div>
-					<div  id="peda" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="pedagogique-bulls"><a>Pédagogique</a></div>
-					<div id="social" class="button col-12 col-md-1 mt-md-0 mt-2 tri" data-filter="social-cooremans"><a>Social</a></div>
-					<div id="tech" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="technique"><a>Technique</a></div>
+				<div class="row filter text-center p-3">
+					<div id="accueil" class="button col-12 col-md-1 mt-md-0 mt-2 tri p-1" data-filter="article"><a>Tout</a></div>
+					<div id="art" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="arts-appliques"><a>Arts appliqués</a></div>
+					<div id="eco" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="economique-cooremans"><a>Economie</a></div>
+					<div id="para" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="paramedical"><a>Paramédicale</a></div>
+					<div  id="peda" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="pedagogique-bulls"><a>Pédagogique</a></div>
+					<div id="social" class="button col-12 col-md-1 mt-md-0 mt-2 tri p-1" data-filter="social-cooremans"><a>Social</a></div>
+					<div id="tech" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="technique"><a>Technique</a></div>
 				</div>
 				</section>
-
-			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
-			
 
 
 			<!-- ct-news start -->
 			<div class="container ct-news">
-				<h3>actu</h3>
+				<h2>Actualité</h2>
 			<div class="row">
 
 			<?php 
@@ -125,7 +122,7 @@
 
 			<!-- ct-events start -->
 			<div class="container ct-events">
-				<h3>evenements</h3>
+				<h2>Événement</h2>
 			<div class="row">
 
 			<?php 
@@ -141,7 +138,7 @@
 
 			<!-- ct-galerie start -->
 			<div class="container ct-galerie">
-				<h3>galerie</h3>
+				<h2>Galerie</h2>
 			<div class="row">
 
 			<?php 

@@ -62,6 +62,34 @@ h2::before {
   height: 2px;
   background-color: black; }
 
+#accueil {
+  border: solid 2px black;
+  border-radius: 20px; }
+
+#art {
+  border: solid 2px #74b626;
+  border-radius: 20px; }
+
+#eco {
+  border: solid 2px #f49500;
+  border-radius: 20px; }
+
+#para {
+  border: solid 2px #db1b0e;
+  border-radius: 20px; }
+
+#peda {
+  border: solid 2px #1393cc;
+  border-radius: 20px; }
+
+#social {
+  border: solid 2px #f5e969;
+  border-radius: 20px; }
+
+#tech {
+  border: solid 2px #956187;
+  border-radius: 20px; }
+
 body {
   background-color: white; }
 

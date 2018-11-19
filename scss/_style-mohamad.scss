@@ -1,0 +1,36 @@
+$bleu: #1393cc;
+$rouge: #db1b0e;
+$vert: #74b626;
+$orange: #f49500;
+$mauve: #956187;
+$jaune: #f5e969;
+
+
+#accueil{
+	border: solid 2px black;
+	border-radius: 20px;
+}
+#art{
+	border: solid 2px $vert;
+	border-radius: 20px;
+}
+#eco{
+	border: solid 2px $orange;
+	border-radius: 20px;
+}
+#para{
+	border: solid 2px $rouge;
+	border-radius: 20px;
+}
+#peda{
+	border: solid 2px $bleu;
+	border-radius: 20px;
+}
+#social{
+	border: solid 2px $jaune;
+	border-radius: 20px;
+}
+#tech{
+	border: solid 2px $mauve;
+	border-radius: 20px;
+}
