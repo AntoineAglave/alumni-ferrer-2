@@ -24,7 +24,6 @@ jQuery(document).ready(function($){
 });
 
 
-alert('hello');
 
 /*   FILTRE NEWS   */
 
@@ -33,9 +32,9 @@ $('.button, .button2').css("cursor","pointer");
 
 	$('.article').hide();
 	//$('.ct-news .article:lt(4), .ct-events .article:lt(4), .ct-galerie .article:lt(4)').show();
-	$(".ct-news .article").slice(0, 6).show();
-	$(".ct-events .article").slice(0, 6).show();
-	$(".ct-galerie .article").slice(0, 6).show();
+	$(".ct-news .article").slice(0, 4).show();
+	$(".ct-events .article").slice(0, 4).show();
+	$(".ct-galerie .article").slice(0, 4).show();
 	
 
 
@@ -52,9 +51,9 @@ $('.button, .button2').css("cursor","pointer");
 			
 			//$(".ct-news .article:lt(4), .ct-events .article:lt(4), .ct-galerie .article:lt(4)").fadeIn("5000");
 			//$(this).filter("."+value).removeClass("active");
-			$(".ct-news .article").slice(0, 6).fadeIn("1000");
-			$(".ct-events .article").slice(0, 6).fadeIn("1000");
-			$(".ct-galerie .article").slice(0, 6).fadeIn("1000");
+			$(".ct-news .article").slice(0, 4).fadeIn("1000");
+			$(".ct-events .article").slice(0, 4).fadeIn("1000");
+			$(".ct-galerie .article").slice(0, 4).fadeIn("1000");
 		}
 		else{
 			$(".article").not("."+value).hide();
@@ -68,9 +67,9 @@ $('.button, .button2').css("cursor","pointer");
 			
 			
 			//$(".article").filter("."+value).fadeIn("5000");
-			$(".ct-news .article").filter("."+value).slice(0, 6).fadeIn("1000");
-			$(".ct-events .article").filter("."+value).slice(0, 6).fadeIn("1000");
-			$(".ct-galerie .article").filter("."+value).slice(0, 6).fadeIn("1000");
+			$(".ct-news .article").filter("."+value).slice(0, 4).fadeIn("1000");
+			$(".ct-events .article").filter("."+value).slice(0, 4).fadeIn("1000");
+			$(".ct-galerie .article").filter("."+value).slice(0, 4).fadeIn("1000");
 			
 		}
 

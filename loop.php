@@ -1,7 +1,8 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 	<!-- article -->
-	<div class="col-3"><article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+	<div class="col-3 article <?php foreach((get_the_category()) as $category) { echo $category->slug . ' '; } ?>
+"><article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<!-- post thumbnail -->
 		<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
