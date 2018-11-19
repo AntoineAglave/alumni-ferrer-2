@@ -62,6 +62,12 @@ h2::before {
   height: 2px;
   background-color: black; }
 
+.h1contact {
+  text-align: left; }
+
+.titrecontact {
+  font-size: 20px; }
+
 body {
   background-color: white; }
 

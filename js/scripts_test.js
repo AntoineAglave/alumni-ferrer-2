@@ -24,7 +24,7 @@ jQuery(document).ready(function($){
 });
 
 
-alert('hello');
+
 
 /*   FILTRE NEWS   */
 
