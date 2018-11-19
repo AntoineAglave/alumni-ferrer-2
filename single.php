@@ -3,30 +3,41 @@
 	<main role="main">
 	<!-- section -->
 	<section>
+		<div class="container pt-4">
+			
+					<!-- post title -->
+			<h1 class="text-left">
+				<?php the_title(); ?>
+			</h1>
+			<!-- /post title -->
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 		<!-- article -->
+			
 		<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+		<div class="row align-items-center">
 			<!-- post thumbnail -->
+			<div class="col-6">
+			<div class="col-10 mx-auto index">
 			<?php if ( has_post_thumbnail()) : // Check if Thumbnail exists ?>
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 					<?php the_post_thumbnail(); // Fullsize image for the single post ?>
 				</a>
+				</div>	
+					<div class="box mx-auto blue"></div>
+			
+			</div>	
 			<?php endif; ?>
+				
 			<!-- /post thumbnail -->
 
-			<!-- post title -->
-			<h1>
-				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-			</h1>
-			<!-- /post title -->
+
 
 			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
+			<div class="col-6">
+			
+			
 			<!-- /post details -->
 
 			<?php the_content(); // Dynamic Content ?>
@@ -40,8 +51,17 @@
 			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 
 			<?php comments_template(); ?>
-
+				
+			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
+			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+			<span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>	
+				
+				
+			</div>
+			</div>
 		</article>
+			
+		</div>		
 		<!-- /article -->
 
 	<?php endwhile; ?>
@@ -57,11 +77,11 @@
 		<!-- /article -->
 
 	<?php endif; ?>
+			
 
 	</section>
 	<!-- /section -->
 	</main>
-
-<?php get_sidebar(); ?>
-
+<div class="container text-center">
 <?php get_footer(); ?>
+</div>	
