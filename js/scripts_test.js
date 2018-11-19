@@ -24,6 +24,10 @@ jQuery(document).ready(function($){
 });
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 80935ba182beb8647c47058fad06b91830c1a686
 
 /*   FILTRE NEWS   */
 
