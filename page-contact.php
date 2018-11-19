@@ -12,6 +12,11 @@
 			<div class="row">
         
 		 <div class="col-6">
+             
+              <div class="col-10 mx-auto">
+				<img alt="left" src="https://images.pexels.com/photos/1139319/pexels-photo-1139319.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid img-contact">
+             </div>
+            <div class="box mx-auto blue"></div>
               </div>
 		
               
