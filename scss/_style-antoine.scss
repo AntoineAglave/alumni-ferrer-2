@@ -17,6 +17,10 @@
     background-position: center;
 }
 
+img{
+	width: 100%;
+}
+
 h1{
 	
 	font-family: 'Montserrat', sans-serif;
@@ -73,4 +77,9 @@ h2::before{
 	position: absolute;
 	height: 2px;
 	background-color: black;
+}
+
+.attachment-post-thumbnail{
+	height: 45vh;
+	object-fit: cover;
 }
