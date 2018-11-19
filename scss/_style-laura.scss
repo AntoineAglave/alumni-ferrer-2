@@ -1,0 +1,85 @@
+$typofira : 'Fira Sans', sans-serif;
+$typomonts : 'Montserrat', sans-serif;
+
+.titlebefore::before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 100px;
+	background-color: black;
+}
+.actualite-l{
+a{
+	color: black;
+}
+a:hover{
+	text-decoration: none;
+}
+h4{
+	font-size: 15px;
+	font-family: $typofira;
+	display: flex;
+	justify-content: flex-end;
+}
+h4::before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 355px;
+	background-color: red;
+	justify-content: flex-start;
+}
+h3{
+	font-size: 22px;
+	font-family: $typofira;
+}
+p{
+	font-size: 12px;
+	font-family: $typofira;
+}
+
+.actu{
+	margin-top: 40px;
+	width: 400px;
+}
+.actu::after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 95%;
+	background-color: red;
+}
+}
+.event-l{
+	.event{
+		display: flex;
+		justify-content: center;
+	}
+	.img{
+		z-index: 1000;
+	}
+	img{
+		height: 200px;
+		width: 180px;
+		object-fit: cover;
+	}
+	h3{
+		font-family: $typomonts;
+		font-size: 20px;
+		text-align: center;
+	}
+	h4{
+		font-size: 15px;
+	font-family: $typofira;
+	display: flex;
+	justify-content: flex-start;
+	}
+	h4::after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 40%;
+	background-color: red;
+	justify-content: flex-start;
+}
+}

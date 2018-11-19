@@ -62,6 +62,83 @@ h2::before {
   height: 2px;
   background-color: black; }
 
+.titlebefore::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  background-color: black; }
+
+.actualite-l a {
+  color: black; }
+
+.actualite-l a:hover {
+  text-decoration: none; }
+
+.actualite-l h4 {
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: flex-end; }
+
+.actualite-l h4::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 355px;
+  background-color: red;
+  justify-content: flex-start; }
+
+.actualite-l h3 {
+  font-size: 22px;
+  font-family: "Fira Sans", sans-serif; }
+
+.actualite-l p {
+  font-size: 12px;
+  font-family: "Fira Sans", sans-serif; }
+
+.actualite-l .actu {
+  margin-top: 40px;
+  width: 400px; }
+
+.actualite-l .actu::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 95%;
+  background-color: red; }
+
+.event-l .event {
+  display: flex;
+  justify-content: center; }
+
+.event-l .img {
+  z-index: 1000; }
+
+.event-l img {
+  height: 200px;
+  width: 180px;
+  object-fit: cover; }
+
+.event-l h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+.event-l h4 {
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: flex-start; }
+
+.event-l h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 40%;
+  background-color: red;
+  justify-content: flex-start; }
+
 body {
   background-color: white; }
 

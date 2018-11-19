@@ -103,11 +103,47 @@
 					</div>
 					</section>
 
-			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+			<h1 class="titlebefore">Event</h1>
 			
-			<div class="container">
+				<div class="container event-l">
 			<div class="row">
-			<?php get_template_part('loop'); ?>
+				 <?php query_posts('category_name=Événement');
+                     while ( have_posts() ) : the_post(); ?>
+				
+				<div class="col-lg-3 col-md-12 event">
+					<a href="<?php echo get_permalink(); ?>">
+					<div class="col-12">
+						<div class="col-10">
+						<h4>Arts appliqués</h4>
+						<div class="mx-auto img">
+						<?php the_post_thumbnail( $size = '', $attr = '' );?>
+						</div>
+						</div>
+						<div class="box mx-auto blue"></div>
+					</div>
+					<h3><?php the_title(); ?></h3>
+					</a>
+				</div>
+				 <?php endwhile;?>
+
+			<?php get_template_part('pagination'); ?>
+			</div>		
+			</div>
+			
+			<div class="container actualite-l">
+			<div class="row">
+				 <?php query_posts('category_name=Actualité');
+                     while ( have_posts() ) : the_post(); ?>
+				
+				<div class="col-lg-6 col-md-12 actu">
+					<a href="<?php echo get_permalink(); ?>">
+					<h4>Arts appliqués</h4>
+					<h3><?php the_title(); ?></h3>
+					<p><?php the_time('d/m/Y') ?></p>
+					<p><?php the_excerpt(); ?></p>
+					</a>
+				</div>
+				 <?php endwhile;?>
 
 			<?php get_template_part('pagination'); ?>
 			</div>		
