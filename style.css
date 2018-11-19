@@ -97,6 +97,9 @@ h2::before {
   border: solid 2px #956187;
   border-radius: 20px; }
 
+.button {
+  font-family: 'Montserrat', sans-serif; }
+
 body {
   background-color: white; }
 
