@@ -115,7 +115,7 @@
 					<div class="col-12">
 						<div class="col-10">
 						<h4>Arts appliqués</h4>
-						<div class="mx-auto img">
+						<div class="mx-auto">
 						<?php the_post_thumbnail( $size = '', $attr = '' );?>
 						</div>
 						</div>
