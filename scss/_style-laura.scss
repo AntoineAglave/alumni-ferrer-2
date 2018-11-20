@@ -46,13 +46,7 @@ p{
 .actu{
 	margin-top: 40px;
 }
-/*.actu::after{
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 95%;
-	background-color: red;
-}*/
+
 }
 .ct-events{
 	.event{
@@ -121,16 +115,17 @@ content: "";
 		margin-top: 10px;
 	}
 	h4{
-		font-size: 15px;
+	width: 60%;
+	font-size: 15px;
 	font-family: $typofira;
-	display: flex;
-	justify-content: flex-start;
 	}
 	h4::after{
 	content: "";
 	position: absolute;
 	height: 2px;
-	width: 40%;
+	width: 20%;
+	margin-left: 34px;
+    margin-top: 8px;	
 	background-color: red;
 	justify-content: flex-start;
 }

@@ -149,14 +149,6 @@
 
 			<!-- ct-galerie End -->
 
-
-
-
-
-
-
-
-
 		</section>
 		
 		<!-- /section -->

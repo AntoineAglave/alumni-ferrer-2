@@ -7,8 +7,8 @@
 		<div class="galerie">
 					<a href="<?php echo get_permalink(); ?>">
 					<div class="col-12">
+						<h4 class="text-center"></h4>
 						<div class="col-10">
-						<h4>Arts appliqués</h4>
 						<div class="mx-auto">
 						<?php the_post_thumbnail( $size = '', $attr = '' );?>
 						</div>
