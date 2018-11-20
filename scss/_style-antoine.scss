@@ -319,3 +319,23 @@ h2::before{
 	background-color: $mauve;
 	color: white;
 }
+
+.menu-item a{
+	color: black;
+	display: block;
+	padding: 0.5rem 3rem;
+	font-family: 'Montserrat', sans-serif;	
+}
+
+.h1contact{
+    text-align:left;
+}
+
+.titrecontact{
+    font-size:20px;
+}
+
+.img-contact{
+    position: relative;
+    z-index: 1000;
+}
