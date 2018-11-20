@@ -114,6 +114,7 @@ h2::before{
 		.actu{
 		h4::before{
 			content: 'Arts-appliques';
+			font-family: 'Montserrat', sans-serif;
 		}
 	}
 	
@@ -123,6 +124,7 @@ h2::before{
 		}
 				h4::before{
 			content: 'Arts-appliques';
+			font-family: 'Montserrat', sans-serif;		
 		}
 
 	}
@@ -139,6 +141,7 @@ h2::before{
 	.actu{
 		h4::before{
 			content: 'Economique';
+			font-family: 'Montserrat', sans-serif;
 		}
 	}
 	.event{
@@ -148,6 +151,7 @@ h2::before{
 		
 		h4::before{
 			content: 'Economique';
+			font-family: 'Montserrat', sans-serif;
 		}
 		
 		}
@@ -165,6 +169,7 @@ h2::before{
 		.actu{
 		h4::before{
 			content: 'Paramedical';
+			font-family: 'Montserrat', sans-serif;
 		}
 	}
 	
@@ -175,6 +180,7 @@ h2::before{
 		
 		h4::before{
 			content: 'Paramedical';
+			font-family: 'Montserrat', sans-serif;	
 		}
 		
 		}
@@ -192,6 +198,7 @@ h2::before{
 			.actu{
 		h4::before{
 			content: 'Pedagogique';
+			font-family: 'Montserrat', sans-serif;
 		}
 	}
 	
@@ -202,6 +209,7 @@ h2::before{
 		
 		h4::before{
 			content: 'Pedagogique';
+			font-family: 'Montserrat', sans-serif;
 		}
 		
 		}
@@ -219,6 +227,7 @@ h2::before{
 				.actu{
 		h4::before{
 			content: 'Social';
+			font-family: 'Montserrat', sans-serif;
 		}
 	}
 	
@@ -229,6 +238,7 @@ h2::before{
 		
 		h4::before{
 			content: 'Social';
+			font-family: 'Montserrat', sans-serif;
 		}
 		
 		}
@@ -247,6 +257,7 @@ h2::before{
 					.actu{
 		h4::before{
 			content: 'Technique';
+			font-family: 'Montserrat', sans-serif;
 		}
 	}
 	  
@@ -257,6 +268,7 @@ h2::before{
 		
 		h4::before{
 			content: 'Technique';
+			font-family: 'Montserrat', sans-serif;
 		}
 		
 		}
@@ -322,9 +334,14 @@ h2::before{
 
 .menu-item a{
 	color: black;
-	display: block;
-	padding: 0.5rem 3rem;
-	font-family: 'Montserrat', sans-serif;	
+	display: block;  
+	padding: 0.5rem 2rem;
+	font-family: 'Montserrat', sans-serif;
+	color: gre;
+}
+
+.menu-item a:hover{
+	color: black;
 }
 
 .h1contact{
@@ -339,3 +356,14 @@ h2::before{
     position: relative;
     z-index: 1000;
 }
+
+.bg-light{    
+	background-color: white !important;
+	box-shadow: 0px 0px 62px -4px rgba(0,0,0,0.42);
+}
+
+h5{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+

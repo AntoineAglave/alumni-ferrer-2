@@ -1,4 +1,8 @@
-charset "UTF-8";
+@import "style-antoine";
+@import "style-laura";
+@import "style-hafsa";
+@import "style-mohamad";
+
 /*
 	Theme Name: alumni-ferrer-2
 	Description: HTML5 Blank WordPress Theme
@@ -13,12 +17,6 @@ charset "UTF-8";
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-
-
-@import "style-antoine";
-@import "style-laura";
-@import "style-hafsa";
-@import "style-mohamad";
 
 body{
     background-color: white;   
