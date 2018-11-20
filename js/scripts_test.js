@@ -39,6 +39,8 @@ $('.button, .button2').css("cursor","pointer");
 
 
 	$(".button").click(function(){
+				$(".button").removeClass("active");
+		$(this).addClass("active");
 		
 		var value = $(this).attr("data-filter");
 		//console.log(value);

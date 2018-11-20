@@ -91,6 +91,7 @@ h2::before{
 
 .button{
 	font-family: "Montserrat", sans-serif;
+	transition: 0.3s;
 }
 
 h2::before{
@@ -248,7 +249,7 @@ h2::before{
 			content: 'Technique';
 		}
 	}
-	
+	  
 	.event{
 		h4::after{
 			background-color: $mauve;
@@ -259,4 +260,62 @@ h2::before{
 		}
 		
 		}
+}
+
+
+#accueil{
+	border: solid 2px black;
+	border-radius: 20px;
+}
+#accueil.active, #accueil:hover{
+	background-color: black;
+	color: white;
+}
+#art{
+	border: solid 2px $vert;
+	border-radius: 20px;
+}
+#art.active, #art:hover{
+	background-color: $vert;
+	color: white;
+}
+#eco{
+	border: solid 2px $orange;
+	border-radius: 20px;
+}
+#eco.active, #eco:hover{
+	background-color: $orange;
+	color: white;
+}
+#para{
+	border: solid 2px $rouge;
+	border-radius: 20px;
+}
+#para.active, #para:hover{
+	background-color: $rouge;
+	color: white;
+}
+#peda{
+	border: solid 2px $bleu;
+	border-radius: 20px;
+}
+#peda.active, #peda:hover{
+	background-color: $bleu;
+	color: white;
+}
+#social{
+	border: solid 2px $jaune;
+	border-radius: 20px;
+}
+#social.active, #social:hover{
+	background-color: $jaune;
+	color: white;
+}
+#tech{
+	border: solid 2px $mauve;
+	border-radius: 20px;
+}
+#tech.active, #tech:hover{
+	background-color: $mauve;
+	color: white;
 }
