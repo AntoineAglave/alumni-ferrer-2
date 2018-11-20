@@ -13,9 +13,9 @@
 						<?php the_post_thumbnail( $size = '', $attr = '' );?>
 						</div>
 						</div>
-						<div class="box mx-auto blue"></div>
+						<div class="box mx-auto"></div>
 					</div>
-					<h3><?php the_title(); ?></h3>
+					<h3 class="font-weight-bold"><?php the_title(); ?></h3>
 					<p><?php the_time('d/m/Y') ?></p>
 					</a>
 				</div>

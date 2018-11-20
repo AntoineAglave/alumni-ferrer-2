@@ -1,3 +1,10 @@
+$bleu: #1393cc;
+$rouge: #db1b0e;
+$vert: #74b626;
+$orange: #f49500;
+$mauve: #956187;
+$jaune: #f5e969;
+
 .center{
 	bottom: 0;
     left: 0;
@@ -41,13 +48,27 @@ h2{
 	font-family: 'Montserrat', sans-serif;	
 	text-transform: uppercase;
 	font-size: 3rem;
+	padding-left: 50px;
 }
 
 h2::before{
 	position: absolute;
 	height: 2px;
-	width: 50px;
+	width: 30px;
+	margin-left: -60px;
+	margin-top: 28px;
 }
+
+.soustitre{
+	font-size: 2rem;
+	padding-left: 52px;
+}
+
+.soustitre::before{
+	margin-left: -50px;
+	margin-top: 17px;
+}
+
 .box{
     width: 90%;
     height: 21vh;
@@ -68,9 +89,174 @@ h2::before{
 	background-color: #76b729;
 }
 
+.button{
+	font-family: "Montserrat", sans-serif;
+}
+
 h2::before{
 	content: "";
 	position: absolute;
 	height: 2px;
 	background-color: black;
+}
+
+.category-arts-appliques{
+	.actu{
+	margin-top: 40px;
+	border-top: 2px solid $vert;
+	border-bottom: 2px solid $vert;
+}
+	.box{
+		background-color: $vert;
+	}
+	
+		.actu{
+		h4::before{
+			content: 'Arts-appliques';
+		}
+	}
+	
+	.event{
+		h4::after{
+			background-color: $vert;
+		}
+				h4::before{
+			content: 'Arts-appliques';
+		}
+
+	}
+}
+.category-economique-cooremans{
+	.actu{
+	margin-top: 40px;
+	border-top: 2px solid $orange;
+	border-bottom: 2px solid $orange;
+}
+	.box{
+		background-color: $orange;
+	}
+	.actu{
+		h4::before{
+			content: 'Economique';
+		}
+	}
+	.event{
+		h4::after{
+			background-color: $orange;
+		}
+		
+		h4::before{
+			content: 'Economique';
+		}
+		
+		}
+}
+.category-paramedical{
+	.actu{
+	margin-top: 40px;
+	border-top: 2px solid $rouge;
+	border-bottom: 2px solid $rouge;
+}
+	.box{
+		background-color: $rouge;
+	}
+	
+		.actu{
+		h4::before{
+			content: 'Paramedical';
+		}
+	}
+	
+	.event{
+		h4::after{
+			background-color: $rouge;
+		}
+		
+		h4::before{
+			content: 'Paramedical';
+		}
+		
+		}
+}
+.category-pedagogique-bulls{
+	.actu{
+	margin-top: 40px;
+	border-top: 2px solid $bleu;
+	border-bottom: 2px solid $bleu;
+}
+	.box{
+		background-color: $bleu;
+	}
+	
+			.actu{
+		h4::before{
+			content: 'Pedagogique';
+		}
+	}
+	
+	.event{
+		h4::after{
+			background-color: $bleu;
+		}
+		
+		h4::before{
+			content: 'Pedagogique';
+		}
+		
+		}
+}
+.category-social-cooremans{
+	.actu{
+	margin-top: 40px;
+	border-top: 2px solid $jaune;
+	border-bottom: 2px solid $jaune;
+}
+	.box{
+		background-color: $jaune;
+	}
+	
+				.actu{
+		h4::before{
+			content: 'Social';
+		}
+	}
+	
+	.event{
+		h4::after{
+			background-color: $jaune;
+		}
+		
+		h4::before{
+			content: 'Social';
+		}
+		
+		}
+		
+}
+.category-technique{
+	.actu{
+	margin-top: 40px;
+	border-top: 2px solid $mauve;
+	border-bottom: 2px solid $mauve;
+}
+	.box{
+		background-color: $mauve;
+	}
+	
+					.actu{
+		h4::before{
+			content: 'Technique';
+		}
+	}
+	
+	.event{
+		h4::after{
+			background-color: $mauve;
+		}
+		
+		h4::before{
+			content: 'Technique';
+		}
+		
+		}
 }

@@ -45,9 +45,6 @@ p{
 
 .actu{
 	margin-top: 40px;
-	width: 400px;
-	border-top: 2px solid blue;
-	border-bottom: 2px solid blue;
 }
 /*.actu::after{
 	content: "";
@@ -77,18 +74,23 @@ p{
 		margin-top: 10px;
 	}
 	h4{
-		font-size: 15px;
-	font-family: $typofira;
-	display: flex;
-	justify-content: flex-start;
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    width: 60%;
+    text-align: right;
+		
 	}
 	h4::after{
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 40%;
-	background-color: red;
-	justify-content: flex-start;
+content: "";
+    position: absolute;
+    height: 2px;
+    width: 20%;
+    background-color: black;
+    justify-content: flex-start;
+    margin-left: 34px;
+    margin-top: 8px;
 }
 	.box{
 		width: 100%;

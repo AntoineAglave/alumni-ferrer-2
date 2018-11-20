@@ -4,7 +4,7 @@
 
 		<div class="actu">
 					<a href="<?php echo get_permalink(); ?>">
-					<h4>Arts appliqués</h4>
+					<h4></h4>
 					<h3><?php the_title(); ?></h3>
 					<p><?php the_time('d/m/Y') ?></p>
 					<p><?php the_excerpt(); ?></p>

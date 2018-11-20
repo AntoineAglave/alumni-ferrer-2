@@ -33,12 +33,23 @@ p {
 h2 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  font-size: 3rem; }
+  font-size: 3rem;
+  padding-left: 50px; }
 
 h2::before {
   position: absolute;
   height: 2px;
-  width: 50px; }
+  width: 30px;
+  margin-left: -60px;
+  margin-top: 28px; }
+
+.soustitre {
+  font-size: 2rem;
+  padding-left: 52px; }
+
+.soustitre::before {
+  margin-left: -50px;
+  margin-top: 17px; }
 
 .box {
   width: 90%;
@@ -56,11 +67,116 @@ h2::before {
 .green {
   background-color: #76b729; }
 
+.button {
+  font-family: "Montserrat", sans-serif; }
+
 h2::before {
   content: "";
   position: absolute;
   height: 2px;
   background-color: black; }
+
+.category-arts-appliques .actu {
+  margin-top: 40px;
+  border-top: 2px solid #74b626;
+  border-bottom: 2px solid #74b626; }
+
+.category-arts-appliques .box {
+  background-color: #74b626; }
+
+.category-arts-appliques .actu h4::before {
+  content: 'Arts-appliques'; }
+
+.category-arts-appliques .event h4::after {
+  background-color: #74b626; }
+
+.category-arts-appliques .event h4::before {
+  content: 'Arts-appliques'; }
+
+.category-economique-cooremans .actu {
+  margin-top: 40px;
+  border-top: 2px solid #f49500;
+  border-bottom: 2px solid #f49500; }
+
+.category-economique-cooremans .box {
+  background-color: #f49500; }
+
+.category-economique-cooremans .actu h4::before {
+  content: 'Economique'; }
+
+.category-economique-cooremans .event h4::after {
+  background-color: #f49500; }
+
+.category-economique-cooremans .event h4::before {
+  content: 'Economique'; }
+
+.category-paramedical .actu {
+  margin-top: 40px;
+  border-top: 2px solid #db1b0e;
+  border-bottom: 2px solid #db1b0e; }
+
+.category-paramedical .box {
+  background-color: #db1b0e; }
+
+.category-paramedical .actu h4::before {
+  content: 'Paramedical'; }
+
+.category-paramedical .event h4::after {
+  background-color: #db1b0e; }
+
+.category-paramedical .event h4::before {
+  content: 'Paramedical'; }
+
+.category-pedagogique-bulls .actu {
+  margin-top: 40px;
+  border-top: 2px solid #1393cc;
+  border-bottom: 2px solid #1393cc; }
+
+.category-pedagogique-bulls .box {
+  background-color: #1393cc; }
+
+.category-pedagogique-bulls .actu h4::before {
+  content: 'Pedagogique'; }
+
+.category-pedagogique-bulls .event h4::after {
+  background-color: #1393cc; }
+
+.category-pedagogique-bulls .event h4::before {
+  content: 'Pedagogique'; }
+
+.category-social-cooremans .actu {
+  margin-top: 40px;
+  border-top: 2px solid #f5e969;
+  border-bottom: 2px solid #f5e969; }
+
+.category-social-cooremans .box {
+  background-color: #f5e969; }
+
+.category-social-cooremans .actu h4::before {
+  content: 'Social'; }
+
+.category-social-cooremans .event h4::after {
+  background-color: #f5e969; }
+
+.category-social-cooremans .event h4::before {
+  content: 'Social'; }
+
+.category-technique .actu {
+  margin-top: 40px;
+  border-top: 2px solid #956187;
+  border-bottom: 2px solid #956187; }
+
+.category-technique .box {
+  background-color: #956187; }
+
+.category-technique .actu h4::before {
+  content: 'Technique'; }
+
+.category-technique .event h4::after {
+  background-color: #956187; }
+
+.category-technique .event h4::before {
+  content: 'Technique'; }
 
 .titlebefore::before {
   content: "";
@@ -106,10 +222,7 @@ a:hover {
     font-size: 12px;
     font-family: "Fira Sans", sans-serif; }
   .ct-news .actu {
-    margin-top: 40px;
-    width: 400px;
-    border-top: 2px solid blue;
-    border-bottom: 2px solid blue; }
+    margin-top: 40px; }
 
 .ct-events .event {
   display: flex;
@@ -132,16 +245,20 @@ a:hover {
 .ct-events h4 {
   font-size: 15px;
   font-family: "Fira Sans", sans-serif;
-  display: flex;
-  justify-content: flex-start; }
+  /* display: flex; */
+  /* justify-content: flex-start; */
+  width: 60%;
+  text-align: right; }
 
 .ct-events h4::after {
   content: "";
   position: absolute;
   height: 2px;
-  width: 40%;
-  background-color: red;
-  justify-content: flex-start; }
+  width: 20%;
+  background-color: black;
+  justify-content: flex-start;
+  margin-left: 34px;
+  margin-top: 8px; }
 
 .ct-events .box {
   width: 100%;
