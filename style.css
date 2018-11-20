@@ -65,10 +65,19 @@ h2::before {
   height: 2px;
   background-color: black; }
 
-<<<<<<< HEAD
 .attachment-post-thumbnail {
   height: 45vh;
   object-fit: cover; }
+
+.h1contact {
+  text-align: left; }
+
+.titrecontact {
+  font-size: 20px; }
+
+.img-contact {
+  position: relative;
+  z-index: 1000; }
 
 #accueil {
   border: solid 2px black;
@@ -100,17 +109,6 @@ h2::before {
 
 .button {
   font-family: 'Montserrat', sans-serif; }
-=======
-.h1contact {
-  text-align: left; }
-
-.titrecontact {
-  font-size: 20px; }
-
-.img-contact {
-  position: relative;
-  z-index: 1000; }
->>>>>>> 80935ba182beb8647c47058fad06b91830c1a686
 
 body {
   background-color: white; }
