@@ -9,9 +9,9 @@
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
-			<div class="row">
+			<div class="row container-fluid">
         
-		 <div class="col-6">
+		 <div class="col-sm-12 col-lg-6">
              
               <div class="col-10 mx-auto">
 				<img alt="left" src="https://images.pexels.com/photos/1139319/pexels-photo-1139319.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" class="img-fluid img-contact">
@@ -24,7 +24,7 @@
           
 			
        
-             <div class="col-6">
+             <div class="col-sm-12 col-lg-6 form-droite">
 			
 			<h2 class="titrecontact">INFORMATION DE CONTACT</h2>
 			<br>

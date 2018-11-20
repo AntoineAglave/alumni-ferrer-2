@@ -1,7 +1,7 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 	<!-- article -->
-	<div class="col-3 article <?php foreach((get_the_category()) as $category) { echo $category->slug . ' '; } ?>
+	<div class="col-12 col-md-6 col-xl-3 article <?php foreach((get_the_category()) as $category) { echo $category->slug . ' '; } ?>
 "><article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 		<div class="galerie">

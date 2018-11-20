@@ -1,13 +1,37 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
+            
+            <div class="row container-fluid">
+            
+                <div class="col-xs-12 col-lg-3 offset-1 ">
+                    
+                   
+                    <P>rue de la Fontaine 4
+                    <br>
+                    1000 BRUXELLES</P> 
+                    
+                </div>
+                 
 				<!-- copyright -->
+				<div class="col-xs-12 col-lg-4">
 				<p class="copyright">
 					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
 					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
 				</p>
+				</div>
 				<!-- /copyright -->
-
+              
+              
+               <div class="col-xs-12 col-lg-3 offset-1 "> 
+               
+                <P>Tél : +32 2 279 58 10
+                <br>
+                Fax : +32 2 279 58 29</P>
+               </div>
+        </div>
+        
+        
 			</footer>
 			<!-- /footer -->
 
@@ -17,12 +41,27 @@
 		<?php wp_footer(); ?>
 
 		<!-- analytics -->
+		
+		
+		
+		
+		
 		<script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+ 
+ 
+ 
+ 
+ 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="<?php echo get_template_directory_uri(); ?>/js/scripts_test.js"></script>
+		
+		
+		
+		
 		
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){

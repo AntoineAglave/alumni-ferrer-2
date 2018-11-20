@@ -98,8 +98,16 @@ h2::before {
   font-family: 'Montserrat', sans-serif; }
 
 .category-arts-appliques .galerie h4::before {
-  content: 'Paramedical';
+  content: 'Arts-appliques';
   font-family: 'Montserrat', sans-serif; }
+
+.category-arts-appliques .catgry {
+  border-top: 2px solid #74b626; }
+  .category-arts-appliques .catgry h4::before {
+    content: 'Arts-appliques'; }
+
+.category-arts-appliques .event_single {
+  border-left-color: #74b626 !important; }
 
 .category-economique-cooremans .actu {
   margin-top: 40px;
@@ -124,6 +132,14 @@ h2::before {
   content: 'Economique';
   font-family: 'Montserrat', sans-serif; }
 
+.category-economique-cooremans .catgry {
+  border-top: 2px solid #f49500; }
+  .category-economique-cooremans .catgry h4::before {
+    content: 'Economique'; }
+
+.category-economique-cooremans .event_single {
+  border-left-color: #f49500 !important; }
+
 .category-paramedical .actu {
   margin-top: 40px;
   border-top: 2px solid #db1b0e;
@@ -146,6 +162,14 @@ h2::before {
 .category-paramedical .galerie h4::before {
   content: 'Paramedical';
   font-family: 'Montserrat', sans-serif; }
+
+.category-paramedical .catgry {
+  border-top: 2px solid #db1b0e; }
+  .category-paramedical .catgry h4::before {
+    content: 'Paramedical'; }
+
+.category-paramedical .event_single {
+  border-left-color: #db1b0e !important; }
 
 .category-pedagogique-bulls .actu {
   margin-top: 40px;
@@ -170,6 +194,14 @@ h2::before {
   content: 'Pédagogique';
   font-family: 'Montserrat', sans-serif; }
 
+.category-pedagogique-bulls .catgry {
+  border-top: 2px solid #1393cc; }
+  .category-pedagogique-bulls .catgry h4::before {
+    content: 'Pédagogique'; }
+
+.category-pedagogique-bulls .event_single {
+  border-left-color: #1393cc !important; }
+
 .category-social-cooremans .actu {
   margin-top: 40px;
   border-top: 2px solid #f5e969;
@@ -192,6 +224,14 @@ h2::before {
 .category-social-cooremans .galerie h4::before {
   content: 'Social';
   font-family: 'Montserrat', sans-serif; }
+
+.category-social-cooremans .catgry {
+  border-top: 2px solid #f5e969; }
+  .category-social-cooremans .catgry h4::before {
+    content: 'Social'; }
+
+.category-social-cooremans .event_single {
+  border-left-color: #f5e969 !important; }
 
 .category-technique .actu {
   margin-top: 40px;
@@ -218,6 +258,14 @@ h2::before {
 .category-technique .galerie h4::before {
   content: 'Technique';
   font-family: 'Montserrat', sans-serif; }
+
+.category-technique .catgry {
+  border-top: 2px solid #956187; }
+  .category-technique .catgry h4::before {
+    content: 'Technique'; }
+
+.category-technique .event_single {
+  border-left-color: #956187 !important; }
 
 #accueil {
   border: solid 2px black;
@@ -302,6 +350,73 @@ h2::before {
 h5 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase; }
+
+.form-droite {
+  padding-left: 100px;
+  margin: 0; }
+
+.cr-galeries {
+  margin-bottom: 50px; }
+
+.cr-galeries img {
+  object-fit: cover;
+  position: relative;
+  z-index: 1000; }
+
+.single-img img {
+  width: 100%;
+  position: relative;
+  z-index: 1000; }
+
+.single .box {
+  width: 90%;
+  height: 15vh;
+  margin-top: -11vh;
+  position: relative;
+  z-index: 1;
+  left: -8%; }
+
+.single .col-6 p {
+  text-align: justify; }
+
+.container {
+  max-width: 80%; }
+
+.title-art {
+  text-align: left;
+  margin: 100px 0 50px 100px; }
+
+.catgry h4 {
+  font-size: 18px;
+  font-family: "Fira Sans", sans-serif;
+  background-color: white;
+  margin-top: -10px;
+  width: 20%;
+  padding-left: 5%; }
+
+.event_date {
+  font-size: 11px;
+  font-family: "Fira Sans", sans-serif; }
+
+.event_category {
+  display: none; }
+
+.form-droite {
+  padding-left: 100px;
+  margin: 0; }
+
+.cr-galeries {
+  margin-bottom: 50px; }
+
+.cr-galeries img {
+  object-fit: cover;
+  position: relative;
+  z-index: 1000; }
+
+.date {
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+  padding-left: 5%; }
 
 .titlebefore::before {
   content: "";

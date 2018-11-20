@@ -5,6 +5,10 @@ $orange: #f49500;
 $mauve: #956187;
 $jaune: #f5e969;
 
+$typofira : 'Fira Sans', sans-serif;
+$typomonts : 'Montserrat', sans-serif;
+
+
 .center{
 	bottom: 0;
     left: 0;
@@ -131,10 +135,21 @@ h2::before{
 	
 		.galerie{
 		h4::before{
-			content: 'Paramedical';
+			content: 'Arts-appliques';
 			font-family: 'Montserrat', sans-serif;
 		}
 		}
+	
+	.catgry{
+   	 border-top: 2px solid $vert;
+   	 h4::before{
+   		 content:'Arts-appliques'
+   	 }
+    }
+    .event_single{
+    border-left-color: $vert !important;
+}
+
 
 }
 .category-economique-cooremans{
@@ -170,6 +185,17 @@ h2::before{
 			font-family: 'Montserrat', sans-serif;
 		}
 		}
+	
+	.catgry{
+   	 border-top: 2px solid $orange;
+   	 h4::before{
+   		 content:'Economique'
+   	 }
+    }
+    .event_single{
+    border-left-color: $orange !important;
+}
+
 }
 .category-paramedical{
 	.actu{
@@ -205,6 +231,17 @@ h2::before{
 			font-family: 'Montserrat', sans-serif;
 		}
 		}
+	
+	.catgry{
+   	 border-top: 2px solid $rouge;
+   	 h4::before{
+   		 content:'Paramedical'
+   	 }
+    }
+    .event_single{
+    border-left-color: $rouge !important;
+}
+
 }
 .category-pedagogique-bulls{
 	.actu{
@@ -241,6 +278,17 @@ h2::before{
 			font-family: 'Montserrat', sans-serif;
 		}
 		}
+	
+	.catgry{
+   	 border-top: 2px solid $bleu;
+   	 h4::before{
+   		 content:'Pédagogique'
+   	 }
+    }
+    .event_single{
+    border-left-color: $bleu !important;
+}
+
 }
 .category-social-cooremans{
 	.actu{
@@ -277,6 +325,17 @@ h2::before{
 			font-family: 'Montserrat', sans-serif;
 		}
 		}
+	
+	.catgry{
+   	 border-top: 2px solid $jaune;
+   	 h4::before{
+   		 content:'Social'
+   	 }
+    }
+    .event_single{
+    border-left-color: $jaune !important;
+}
+
 		
 }
 .category-technique{
@@ -318,6 +377,17 @@ h2::before{
 			font-family: 'Montserrat', sans-serif;
 		}
 		}
+	
+	.catgry{
+   	 border-top: 2px solid $mauve;
+   	 h4::before{
+   		 content:'Technique'
+   	 }
+    }
+    .event_single{
+    border-left-color: $mauve !important;
+}
+
 }
 
 
@@ -411,5 +481,89 @@ h2::before{
 h5{
 	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
+}
+
+.form-droite{
+    padding-left:100px;
+    margin:0;
+}
+
+.cr-galeries{
+    margin-bottom: 50px;
+}
+
+
+.cr-galeries img {
+  object-fit: cover;
+  position: relative;
+  z-index: 1000; }
+
+    .single-img img{
+   	 width: 100%;
+   	 position: relative;
+   	 z-index: 1000;
+    }
+
+.single{
+
+    .box{
+   	 width: 90%;
+   	 height: 15vh;
+   	 margin-top: -11vh;
+   	 position: relative;
+  		 z-index: 1;
+   	 left: -8%;
+    }
+    .col-6{
+   	 p{
+   		 text-align: justify;
+   	 }
+    }
+}
+.container{
+    max-width: 80%
+}
+.title-art{
+    text-align: left;
+    margin: 100px 0 50px 100px;
+    
+}
+.catgry{
+    h4{
+   	 font-size: 18px;
+    font-family: $typofira;
+    background-color: white;
+    margin-top: -10px;
+    width: 20%;
+    padding-left: 5%;
+    }
+}
+.event_date{
+    font-size: 11px;
+    font-family: $typofira;
+}
+.event_category{
+    display: none;
+}
+
+.form-droite{
+    padding-left:100px;
+    margin:0;
+}
+
+.cr-galeries{
+    margin-bottom: 50px;
+}
+
+
+.cr-galeries img {
+  object-fit: cover;
+  position: relative;
+  z-index: 1000; }
+
+.date{
+	font-size: 15px;
+	font-family: $typofira;
+	padding-left: 5%;
 }
 
