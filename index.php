@@ -92,62 +92,71 @@
 				
 				<!-- /SLIDER -->
 				<section class="container">
-				<div class="row filter">
-						<div id="accueil" class="button col-12 col-md-1 mt-md-0 mt-2 tri" data-filter="article"><a>Tout</a></div>
-						<div id="art" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="arts-appliques"><a>Arts appliqués</a></div>
-						<div id="eco" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="economique-cooremans"><a>Economie</a></div>
-						<div id="para" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="paramedical"><a>Paramédicale</a></div>
-						<div  id="peda" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="pedagogique-bulls"><a>Pédagogique</a></div>
-						<div id="social" class="button col-12 col-md-1 mt-md-0 mt-2 tri" data-filter="social-cooremans"><a>Social</a></div>
-						<div id="tech" class="button col-12 col-md-2 mt-md-0 mt-2 tri" data-filter="technique"><a>Technique</a></div>
-					</div>
-					</section>
-
-			<h1 class="titlebefore">Event</h1>
-			
-				<div class="container event-l">
-			<div class="row">
-				 <?php query_posts('category_name=Événement');
-                     while ( have_posts() ) : the_post(); ?>
-				
-				<div class="col-lg-3 col-md-12 event">
-					<a href="<?php echo get_permalink(); ?>">
-					<div class="col-12">
-						<div class="col-10">
-						<h4>Arts appliqués</h4>
-						<div class="mx-auto">
-						<?php the_post_thumbnail( $size = '', $attr = '' );?>
-						</div>
-						</div>
-						<div class="box mx-auto blue"></div>
-					</div>
-					<h3><?php the_title(); ?></h3>
-					</a>
+				<div class="row filter text-center p-3">
+					<div id="accueil" class="button col-12 col-md-1 mt-md-0 mt-2 tri p-1" data-filter="article"><a>Tout</a></div>
+					<div id="art" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="arts-appliques"><a>Arts appliqués</a></div>
+					<div id="eco" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="economique-cooremans"><a>Economie</a></div>
+					<div id="para" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="paramedical"><a>Paramédicale</a></div>
+					<div  id="peda" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="pedagogique-bulls"><a>Pédagogique</a></div>
+					<div id="social" class="button col-12 col-md-1 mt-md-0 mt-2 tri p-1" data-filter="social-cooremans"><a>Social</a></div>
+					<div id="tech" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-1" data-filter="technique"><a>Technique</a></div>
 				</div>
-				 <?php endwhile;?>
+				</section>
 
-			<?php get_template_part('pagination'); ?>
+
+			<!-- ct-news start -->
+			<div class="container ct-events">
+				<h2>Événement</h2>
+			<div class="row">
+
+			<?php 
+
+  			 query_posts('category_name=Événement');
+
+			get_template_part('loopevent'); ?>
+
 			</div>		
 			</div>
-			
-			<div class="container actualite-l">
-			<div class="row">
-				 <?php query_posts('category_name=Actualité');
-                     while ( have_posts() ) : the_post(); ?>
-				
-				<div class="col-lg-6 col-md-12 actu">
-					<a href="<?php echo get_permalink(); ?>">
-					<h4>Arts appliqués</h4>
-					<h3><?php the_title(); ?></h3>
-					<p><?php the_time('d/m/Y') ?></p>
-					<p><?php the_excerpt(); ?></p>
-					</a>
-				</div>
-				 <?php endwhile;?>
 
-			<?php get_template_part('pagination'); ?>
+			<!-- ct-news End -->
+
+			<!-- ct-events start -->
+			<div class="container ct-news">
+				<h2>Actualité</h2>
+			<div class="row">
+			<?php 
+
+  			 query_posts('category_name=Actualité');
+
+			get_template_part('loopactu'); ?>
 			</div>		
 			</div>
+
+			<!-- ct-events End -->
+
+			<!-- ct-galerie start -->
+			<div class="container ct-galerie">
+				<h2>Galerie</h2>
+			<div class="row">
+			<?php 
+
+  			 query_posts('category_name=Galerie');
+
+			get_template_part('loopgalerie'); ?>
+
+			</div>		
+			</div>
+
+			<!-- ct-galerie End -->
+
+
+
+
+
+
+
+
+
 		</section>
 		
 		<!-- /section -->

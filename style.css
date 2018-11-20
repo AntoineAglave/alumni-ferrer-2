@@ -76,64 +76,66 @@ a:hover {
   text-decoration: none;
   color: black; }
 
-.actualite-l h4 {
-  font-size: 15px;
-  font-family: "Fira Sans", sans-serif;
-  display: flex;
-  justify-content: flex-end; }
+.ct-news {
+  margin-bottom: 50px;
+  /*h4::before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 355px;
+	background-color: red;
+	justify-content: flex-start;
+}*/
+  /*.actu::after{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 95%;
+	background-color: red;
+}*/ }
+  .ct-news h4 {
+    font-size: 15px;
+    font-family: "Fira Sans", sans-serif;
+    background-color: white;
+    margin-top: -10px;
+    width: 35%; }
+  .ct-news h3 {
+    font-size: 22px;
+    font-family: "Fira Sans", sans-serif; }
+  .ct-news p {
+    font-size: 12px;
+    font-family: "Fira Sans", sans-serif; }
+  .ct-news .actu {
+    margin-top: 40px;
+    width: 400px;
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue; }
 
-.actualite-l h4::before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 355px;
-  background-color: red;
-  justify-content: flex-start; }
-
-.actualite-l h3 {
-  font-size: 22px;
-  font-family: "Fira Sans", sans-serif; }
-
-.actualite-l p {
-  font-size: 12px;
-  font-family: "Fira Sans", sans-serif; }
-
-.actualite-l .actu {
-  margin-top: 40px;
-  width: 400px; }
-
-.actualite-l .actu::after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 95%;
-  background-color: red; }
-
-.event-l .event {
+.ct-events .event {
   display: flex;
   justify-content: center;
   margin-bottom: 40px; }
 
-.event-l img {
-  height: 200px;
+.ct-events img {
+  height: 180px;
   width: 180px;
   object-fit: cover;
   position: relative;
   z-index: 1000; }
 
-.event-l h3 {
+.ct-events h3 {
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   text-align: center;
   margin-top: 10px; }
 
-.event-l h4 {
+.ct-events h4 {
   font-size: 15px;
   font-family: "Fira Sans", sans-serif;
   display: flex;
   justify-content: flex-start; }
 
-.event-l h4::after {
+.ct-events h4::after {
   content: "";
   position: absolute;
   height: 2px;
@@ -141,10 +143,79 @@ a:hover {
   background-color: red;
   justify-content: flex-start; }
 
-.event-l .box {
+.ct-events .box {
   width: 100%;
   height: 8vh;
-  margin-top: -6vh; }
+  margin-top: -6vh;
+  position: relative;
+  z-index: 1; }
+
+.ct-galerie .galerie {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px; }
+
+.ct-galerie img {
+  height: 180px;
+  width: 180px;
+  object-fit: cover;
+  position: relative;
+  z-index: 1000; }
+
+.ct-galerie h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px; }
+
+.ct-galerie h4 {
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+  display: flex;
+  justify-content: flex-start; }
+
+.ct-galerie h4::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 40%;
+  background-color: red;
+  justify-content: flex-start; }
+
+.ct-galerie .box {
+  width: 100%;
+  height: 8vh;
+  margin-top: -6vh;
+  position: relative;
+  z-index: 1; }
+
+#accueil {
+  border: solid 2px black;
+  border-radius: 20px; }
+
+#art {
+  border: solid 2px #74b626;
+  border-radius: 20px; }
+
+#eco {
+  border: solid 2px #f49500;
+  border-radius: 20px; }
+
+#para {
+  border: solid 2px #db1b0e;
+  border-radius: 20px; }
+
+#peda {
+  border: solid 2px #1393cc;
+  border-radius: 20px; }
+
+#social {
+  border: solid 2px #f5e969;
+  border-radius: 20px; }
+
+#tech {
+  border: solid 2px #956187;
+  border-radius: 20px; }
 
 body {
   background-color: white; }
