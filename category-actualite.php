@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 	<main role="main">
-<div class="row pt-3">
+<div class="row pt-3 p-0 m-0">
 				<section class="container mt-5 pt-5">
 				<div class="row filter text-center p-3">
 					<div id="accueil" class="button col-12 col-md-1 mt-md-0 mt-2 tri p-2 active" data-filter="article"><a>Tout</a></div>

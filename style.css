@@ -211,21 +211,21 @@ h2::before {
 
 .category-social-cooremans .actu {
   margin-top: 40px;
-  border-top: 2px solid #f5e969;
-  border-bottom: 2px solid #f5e969; }
+  border-top: 2px solid #ffed28;
+  border-bottom: 2px solid #ffed28; }
 
 .category-social-cooremans .box {
-  background-color: #f5e969; }
+  background-color: #ffed28; }
 
 .category-social-cooremans .box2 {
-  background-color: #f5e969; }
+  background-color: #ffed28; }
 
 .category-social-cooremans .actu h4::before {
   content: 'Social';
   font-family: 'Montserrat', sans-serif; }
 
 .category-social-cooremans .event h4::after {
-  background-color: #f5e969; }
+  background-color: #ffed28; }
 
 .category-social-cooremans .event h4::before {
   content: 'Social';
@@ -236,12 +236,12 @@ h2::before {
   font-family: 'Montserrat', sans-serif; }
 
 .category-social-cooremans .catgry {
-  border-top: 2px solid #f5e969; }
+  border-top: 2px solid #ffed28; }
   .category-social-cooremans .catgry h4::before {
     content: 'Social'; }
 
 .category-social-cooremans .event_single {
-  border-left-color: #f5e969 !important; }
+  border-left-color: #ffed28 !important; }
 
 .category-technique .actu {
   margin-top: 40px;
@@ -279,6 +279,10 @@ h2::before {
 
 .category-technique .event_single {
   border-left-color: #956187 !important; }
+
+.event_single {
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif !important; }
 
 #accueil {
   border: solid 2px black;
@@ -321,11 +325,11 @@ h2::before {
   color: white; }
 
 #social {
-  border: solid 2px #f5e969;
+  border: solid 2px #ffed28;
   border-radius: 20px; }
 
 #social.active, #social:hover {
-  background-color: #f5e969;
+  background-color: #ffed28;
   color: white; }
 
 #tech {
@@ -350,7 +354,10 @@ h2::before {
   text-align: left; }
 
 .titrecontact {
-  font-size: 20px; }
+  font-size: 2rem; }
+
+.titrecontact::before {
+  margin-top: 20px; }
 
 .img-contact {
   position: relative;
@@ -363,10 +370,6 @@ h2::before {
 h5 {
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase; }
-
-.form-droite {
-  padding-left: 100px;
-  margin: 0; }
 
 .cr-galeries {
   margin-bottom: 50px; }
@@ -385,9 +388,7 @@ h5 {
   width: 90%;
   height: 15vh;
   margin-top: -11vh;
-  position: relative;
-  z-index: 1;
-  left: -8%; }
+  position: relative; }
 
 .single .box2 {
   width: 90%;
@@ -399,20 +400,17 @@ h5 {
 .single .col-6 p {
   text-align: justify; }
 
-.container {
-  max-width: 80%; }
-
 .title-art {
   text-align: left;
-  margin: 100px 0 50px 100px; }
+  letter-spacing: normal;
+  font-size: 1.5rem; }
 
 .catgry h4 {
   font-size: 18px;
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: white;
   margin-top: -10px;
-  width: 20%;
-  padding-left: 5%; }
+  width: 50%; }
 
 .event_date {
   font-size: 11px;
@@ -435,8 +433,7 @@ h5 {
 
 .date {
   font-size: 15px;
-  font-family: "Fira Sans", sans-serif;
-  padding-left: 5%; }
+  font-family: "Montserrat", sans-serif; }
 
 h1 {
   font-size: 1rem;
@@ -451,7 +448,7 @@ h1 span {
   letter-spacing: initial; }
 
 .ngg-galleryoverview {
-  text-align: left !important; }
+  text-align: center !important; }
 
 .switch a {
   color: red !important; }
@@ -461,36 +458,6 @@ h1 span {
 
 .footer {
   font-family: 'Montserrat', sans-serif; }
-
-@media (min-width: 768px) {
-  h1 {
-    font-size: 1.5rem; }
-  h1 span {
-    font-size: 5rem; } }
-
-@media (min-width: 992px) {
-  .ct-news h4 {
-    width: 35%; } }
-
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 2rem; }
-  h1 span {
-    font-size: 8rem; } }
-
-.titlebefore::before {
-  content: "";
-  position: absolute;
-  height: 2px;
-  width: 100px;
-  background-color: black; }
-
-a {
-  color: black; }
-
-a:hover {
-  text-decoration: none;
-  color: black; }
 
 .ct-news {
   margin-bottom: 50px;
@@ -516,6 +483,46 @@ a:hover {
     font-family: "Fira Sans", sans-serif; }
   .ct-news .actu {
     margin-top: 40px; }
+
+.ngg-galleryoverview {
+  text-align: center !important; }
+
+main {
+  min-height: 77.4vh; }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem; }
+  h1 span {
+    font-size: 5rem; }
+  .catgry h4 {
+    width: 20%; } }
+
+@media (min-width: 992px) {
+  .ct-news h4 {
+    width: 30%; } }
+
+@media (min-width: 1200px) {
+  .title-art {
+    font-size: 2rem; }
+  h1 {
+    font-size: 2rem; }
+  h1 span {
+    font-size: 8rem; } }
+
+.titlebefore::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  background-color: black; }
+
+a {
+  color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: black; }
 
 .ct-events .event {
   display: flex;
@@ -621,7 +628,7 @@ a:hover {
   border-radius: 20px; }
 
 #social {
-  border: solid 2px #f5e969;
+  border: solid 2px #ffed28;
   border-radius: 20px; }
 
 #tech {

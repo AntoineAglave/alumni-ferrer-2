@@ -15,39 +15,7 @@ a:hover{
 	text-decoration: none;
 	color: black;
 }
-.ct-news{
 
-	margin-bottom: 50px;
-	
-h4{
-	font-size: 15px;
-	font-family: $typofira;
-	background-color: white;
-	margin-top: -10px;
-	width: 50%;
-}
-/*h4::before{
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 355px;
-	background-color: red;
-	justify-content: flex-start;
-}*/
-h3{
-	font-size: 22px;
-	font-family: $typomonts;
-}
-p{
-	font-size: 12px;
-	font-family: $typofira;
-}
-
-.actu{
-	margin-top: 40px;
-}
-
-}
 .ct-events{
 	.event{
 		display: flex;

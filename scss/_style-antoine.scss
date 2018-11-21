@@ -3,7 +3,7 @@ $rouge: #db1b0e;
 $vert: #74b626;
 $orange: #f49500;
 $mauve: #956187;
-$jaune: #f5e969;
+$jaune: #ffed28;
 
 $typofira : 'Fira Sans', sans-serif;
 $typomonts : 'Montserrat', sans-serif;
@@ -403,6 +403,11 @@ h2::before{
 
 }
 
+.event_single{
+	padding: 20px;
+	font-family: 'Montserrat', sans-serif !important;
+}
+
 
 #accueil{
 	border: solid 2px black;
@@ -478,7 +483,11 @@ h2::before{
 }
 
 .titrecontact{
-    font-size:20px;
+    font-size:2rem;
+}
+
+.titrecontact::before{
+	margin-top: 20px;
 }
 
 .img-contact{
@@ -496,10 +505,6 @@ h5{
 	text-transform: uppercase;
 }
 
-.form-droite{
-    padding-left:100px;
-    margin:0;
-}
 
 .cr-galeries{
     margin-bottom: 50px;
@@ -524,8 +529,6 @@ h5{
    	 height: 15vh;
    	 margin-top: -11vh;
    	 position: relative;
-  		 z-index: 1;
-   	 left: -8%;
     }
 	
 	 .box2{
@@ -543,22 +546,19 @@ h5{
    	 }
     }
 }
-.container{
-    max-width: 80%
-}
+
 .title-art{
     text-align: left;
-    margin: 100px 0 50px 100px;
-    
+	letter-spacing: normal;
+	font-size: 1.5rem;
 }
 .catgry{
     h4{
    	 font-size: 18px;
-    font-family: $typofira;
+    font-family: $typomonts;
     background-color: white;
     margin-top: -10px;
-    width: 20%;
-    padding-left: 5%;
+    width: 50%;
     }
 }
 .event_date{
@@ -586,8 +586,7 @@ h5{
 
 .date{
 	font-size: 15px;
-	font-family: $typofira;
-	padding-left: 5%;
+	font-family: $typomonts;
 }
 
 	h1{
@@ -607,7 +606,7 @@ h1 span{
 	}
 
 .ngg-galleryoverview{
-	text-align: left !important;
+	text-align: center!important;
 }
 
 .switch a {
@@ -620,6 +619,47 @@ h1 span{
 
 .footer{
 	font-family: 'Montserrat', sans-serif;	
+}
+
+.ct-news{
+
+	margin-bottom: 50px;
+	
+h4{
+	font-size: 15px;
+	font-family: $typofira;
+	background-color: white;
+	margin-top: -10px;
+	width: 50%;
+}
+/*h4::before{
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 355px;
+	background-color: red;
+	justify-content: flex-start;
+}*/
+h3{
+	font-size: 22px;
+	font-family: $typomonts;
+}
+p{
+	font-size: 12px;
+	font-family: $typofira;
+}
+
+.actu{
+	margin-top: 40px;
+}
+
+}
+	.ngg-galleryoverview{
+	text-align: center!important;
+}
+
+main{
+	min-height: 77.4vh;
 }
 
 // Extra small devices (portrait phones, less than 576px)
@@ -642,17 +682,21 @@ h1 span{
 	font-size: 5rem;
 }
 	
-
+		.catgry{
+		h4{
+			width: 20%;
+		}
+	}
 	
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
 	
-		.ct-news{
+	.ct-news{
 			
 			h4{
-				width: 35%;
+				width: 30%;
 			}
 		
 	}
@@ -661,8 +705,11 @@ h1 span{
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-	
 
+	.title-art{
+	font-size: 2rem;
+}
+	
 	
 	h1{
 	font-size: 2rem;

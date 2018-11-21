@@ -2,7 +2,7 @@
 
 	<main role="main">
 	<!-- section -->
-	<section>
+	<section class="pt-5 mt-5">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
@@ -16,7 +16,7 @@
 			<!-- /post thumbnail -->
 
 			<!-- post title -->
-			<h1>
+			<h1 class="pt-5">
 				<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
 			</h1>
 			<!-- /post title -->
@@ -57,7 +57,5 @@
 	</section>
 	<!-- /section -->
 	</main>
-
-
 
 <?php get_footer(); ?>

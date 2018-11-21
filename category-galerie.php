@@ -19,9 +19,7 @@
 				<h2 class="soustitre pt-3 pb-5">Galerie</h2>
 			<div class="row">
 			<?php 
-
   			 query_posts('category_name=Galerie');
-
 			get_template_part('loopgalerie'); ?>
 
 			</div>		
