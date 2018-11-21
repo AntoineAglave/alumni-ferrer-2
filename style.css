@@ -459,6 +459,9 @@ h1 span {
 .max {
   max-width: 240px; }
 
+.footer {
+  font-family: 'Montserrat', sans-serif; }
+
 @media (min-width: 768px) {
   h1 {
     font-size: 1.5rem; }

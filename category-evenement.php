@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
 	<main role="main">
-
-				<section class="container pt-5">
+<div class="row pt-3">
+				<section class="container mt-5 pt-5">
 				<div class="row filter text-center p-3">
 					<div id="accueil" class="button col-12 col-md-1 mt-md-0 mt-2 tri p-2 active" data-filter="article"><a>Tout</a></div>
 					<div id="art" class="button col-12 col-md-2 mt-md-0 mt-2 tri p-2" data-filter="arts-appliques"><a>Arts appliqués</a></div>
@@ -27,6 +27,7 @@
 
 			</div>		
 			</div>
+		</div>
 
 			<!-- ct-events End -->
 	</main>

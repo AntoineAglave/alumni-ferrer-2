@@ -1,22 +1,22 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
-
-            <div class="container">
-            <div class="row text-center">
+			<div class="container-fluid bg-secondary">
+            <div class="container pb-1 pt-5">
+            <div class="row text-center justify-content-center text-white">
 
                 <div class="col-12 col-md-4">
                     
                    
-                    <P>Rue de la Fontaine 4
+                    <p class="footer">Rue de la Fontaine 4
                     <br>
-                    1000 BRUXELLES</P> 
+                    1000 Bruxelles</p> 
                     
                 </div>
                  
 				<!-- copyright -->
 				<div class="col-12 col-md-4">
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
+				<p class="copyright footer">
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>
 				</p>
 				</div>
 				<!-- /copyright -->
@@ -24,12 +24,13 @@
               
                <div class="col-12 col-md-4"> 
                
-                <P>Tél : +32 2 279 58 10
+                <p class="footer">Tél : +32 2 279 58 10
                 <br>
-                Fax : +32 2 279 58 29</P>
+                Fax : +32 2 279 58 29</p>
                </div>
 					</div>
         </div>
+				</div>
         
         
 			</footer>

@@ -19,7 +19,7 @@
 					<div class="col-12 max">
 						<h3><?php the_title(); ?></h3>
 							
-					<p><?php the_time('d/m/Y') ?></p>
+					<p class="text-center"><?php the_time('d/m/Y') ?></p>
 					</div>	
 					</a>
 				</div>
