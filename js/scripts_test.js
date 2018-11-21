@@ -158,3 +158,55 @@ $( ".article" ).mouseleave(function() {
   
   } );
 });
+
+
+/*   CHANGEMENT NOM SOUSTITRE   */
+
+$(".button").click(function(){
+   		 var value = $(this).attr("data-filter");
+   		 
+    if (value == "article")
+   	 
+   	 {
+   		 $(".evenementtxt").text("Événements de toute les sections");
+   		 $(".actualitetxt").text("Actualités de toute les sections");
+   		 $(".galerietxt").text("Galeries de toute les sections");
+   		 
+   	 }
+    
+    else if (value == "economique-cooremans")
+   	 
+   	 {
+   		 $(".evenementtxt").text('Événements économie');
+   		 $(".actualitetxt").text("Actualités économie");
+   		 $(".galerietxt").text("Galeries économie");
+   		 
+   	 }
+    
+    else if (value == "pedagogique-bulls")
+   	 
+   	 {
+   		 $(".evenementtxt").text("Événements pédagogique");
+   		 $(".actualitetxt").text("Actualités pédagogique");
+   		 $(".galerietxt").text("Galeries pédagogique");
+   		 
+   	 }
+    
+    else if (value == "social-cooremans")
+   	 
+   	 {
+   		 $(".evenementtxt").text("Événements social");
+   		 $(".actualitetxt").text("Actualités social");
+   		 $(".galerietxt").text("Galeries social");
+   		 
+   	 }
+    
+    else{
+   		 $(".evenementtxt").text("Événements "+value);
+   		 $(".actualitetxt").text("Actualités "+value);
+   		 $(".galerietxt").text("Galeries "+value);
+   	 }
+   		 
+   	 });
+
+

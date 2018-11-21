@@ -106,7 +106,7 @@
 
 			<!-- ct-news start -->
 			<div class="container four ct-events">
-				<h2 class="soustitre pt-5 pb-5">Événements</h2>
+				<h2 class="soustitre pt-5 pb-5 evenementtxt">Événements de toutes les sections</h2>
 			<div class="row">
 
 			<?php 
@@ -122,7 +122,7 @@
 
 			<!-- ct-events start -->
 			<div class="container four ct-news">
-				<h2 class="soustitre pt-3 pb-3">Actualités</h2>
+				<h2 class="soustitre pt-3 pb-3 actualitetxt">Actualités de toutes les sections</h2>
 			<div class="row">
 			<?php 
 
@@ -136,7 +136,7 @@
 
 			<!-- ct-galerie start -->
 			<div class="container four ct-galerie">
-				<h2 class="soustitre pt-3 pb-5">Galeries</h2>
+				<h2 class="soustitre pt-3 pb-5 galerietxt">Galeries de toutes les sections</h2>
 			<div class="row">
 			<?php 
 
