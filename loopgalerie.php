@@ -15,8 +15,12 @@
 						</div>
 						<div class="box mx-auto"></div>
 					</div>
-					<h3 class="font-weight-bold"><?php the_title(); ?></h3>
+						
+					<div class="col-12 max">
+						<h3><?php the_title(); ?></h3>
+							
 					<p><?php the_time('d/m/Y') ?></p>
+					</div>	
 					</a>
 				</div>
 		

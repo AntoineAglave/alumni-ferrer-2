@@ -1,34 +1,34 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 
-            
-            <div class="row container-fluid">
-            
-                <div class="col-xs-12 col-lg-3 offset-1 ">
+            <div class="container">
+            <div class="row text-center">
+
+                <div class="col-12 col-md-4">
                     
                    
-                    <P>rue de la Fontaine 4
+                    <P>Rue de la Fontaine 4
                     <br>
                     1000 BRUXELLES</P> 
                     
                 </div>
                  
 				<!-- copyright -->
-				<div class="col-xs-12 col-lg-4">
+				<div class="col-12 col-md-4">
 				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
+					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>.
 				</p>
 				</div>
 				<!-- /copyright -->
               
               
-               <div class="col-xs-12 col-lg-3 offset-1 "> 
+               <div class="col-12 col-md-4"> 
                
                 <P>Tél : +32 2 279 58 10
                 <br>
                 Fax : +32 2 279 58 29</P>
                </div>
+					</div>
         </div>
         
         

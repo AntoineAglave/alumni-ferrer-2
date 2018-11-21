@@ -16,9 +16,13 @@
 						</div>
 						<div class="box mx-auto"></div>
 					</div>
-					<h3 class="font-weight-bold"><?php the_title(); ?></h3>
-					</a>
-				</div>
+
+				
+								<div class="col-12 max">
+					<h3><?php the_title(); ?></h3>
+					</div>	
+		</div>
+			</a>
 		
 	</article></div>
 	<!-- /article -->

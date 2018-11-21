@@ -26,9 +26,12 @@
 			<!-- /post details -->
             <div class="container ">
             <div class="row cr-galeries">
-			<?php the_content(); // Dynamic Content ?>	
+				<div class="col-12">
+			<?php the_content(); // Dynamic Content ?>
+				</div>
+				<div class="box2 mx-auto col-12"></div>
           </div>
-				<div class="box mx-auto"></div>
+				
             </div>
             
         

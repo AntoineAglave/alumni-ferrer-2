@@ -21,7 +21,7 @@
 		<div class="col-xl-6 col-12">
 			<div class="col-10 mx-auto">
 		<h2 class="pb-3">Lorem ipsum</h2>	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu convallis risus. Morbi quis est orci. Etiam commodo ullamcorper varius. Nunc dignissim lacus in porta pulvinar. Nunc lectus enim, venenatis vitae dolor laoreet, dignissim aliquam purus. Vestibulum varius eleifend justo, et ultricies lacus. Nam vestibulum orci sed commodo blandit. Suspendisse nec nisi tincidunt, commodo metus non, interdum ante. Phasellus in dignissim dolor, vel vehicula leo. Vivamus dignissim tellus sit amet nunc scelerisque sodales. Integer pharetra suscipit ultrices. Suspendisse tincidunt volutpat augue, elementum lobortis diam tincidunt sed. Suspendisse aliquam sapien mi, sit amet vehicula dolor posuere et.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu convallis risus. Morbi quis est orci. Etiam commodo ullamcorper varius. Nunc dignissim lacus in porta pulvinar. Nunc lectus enim, venenatis vitae dolor laoreet, dignissim aliquam purus. Vestibulum varius eleifend justo, et ultricies lacus. Nam vestibulum orci sed commodo blandit. Suspendisse nec nisi tincidunt, commodo metus non, interdum ante. Phasellus in dignissim dolor, vel vehicula leo. Vivamus dignissim tellus sit amet nunc scelerisque sodales.</p>
 		</div>
 		</div>	
 		</div>
@@ -29,7 +29,7 @@
 		<div class="col-xl-6 col-12 text-right">
 			<div class="col-10 mx-auto">
 		<h2 class="pb-3">Dolor sit amet</h2>	
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu convallis risus. Morbi quis est orci. Etiam commodo ullamcorper varius. Nunc dignissim lacus in porta pulvinar. Nunc lectus enim, venenatis vitae dolor laoreet, dignissim aliquam purus. Vestibulum varius eleifend justo, et ultricies lacus. Nam vestibulum orci sed commodo blandit. Suspendisse nec nisi tincidunt, commodo metus non, interdum ante. Phasellus in dignissim dolor, vel vehicula leo. Vivamus dignissim tellus sit amet nunc scelerisque sodales. Integer pharetra suscipit ultrices. Suspendisse tincidunt volutpat augue, elementum lobortis diam tincidunt sed. Suspendisse aliquam sapien mi, sit amet vehicula dolor posuere et.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eu convallis risus. Morbi quis est orci. Etiam commodo ullamcorper varius. Nunc dignissim lacus in porta pulvinar. Nunc lectus enim, venenatis vitae dolor laoreet, dignissim aliquam purus. Vestibulum varius eleifend justo, et ultricies lacus. Nam vestibulum orci sed commodo blandit. Suspendisse nec nisi tincidunt, commodo metus non, interdum ante. Phasellus in dignissim dolor, vel vehicula leo. Vivamus dignissim tellus sit amet nunc scelerisque sodales.</p>
 			</div>	
 		</div>
 		
@@ -105,8 +105,8 @@
 
 
 			<!-- ct-news start -->
-			<div class="container ct-events">
-				<h2 class="soustitre pt-5 pb-5">Événement</h2>
+			<div class="container four ct-events">
+				<h2 class="soustitre pt-5 pb-5">Événements</h2>
 			<div class="row">
 
 			<?php 
@@ -121,8 +121,8 @@
 			<!-- ct-news End -->
 
 			<!-- ct-events start -->
-			<div class="container ct-news">
-				<h2 class="soustitre pt-3 pb-3">Actualité</h2>
+			<div class="container four ct-news">
+				<h2 class="soustitre pt-3 pb-3">Actualités</h2>
 			<div class="row">
 			<?php 
 
@@ -135,8 +135,8 @@
 			<!-- ct-events End -->
 
 			<!-- ct-galerie start -->
-			<div class="container ct-galerie">
-				<h2 class="soustitre pt-3 pb-5">Galerie</h2>
+			<div class="container four ct-galerie">
+				<h2 class="soustitre pt-3 pb-5">Galeries</h2>
 			<div class="row">
 			<?php 
 

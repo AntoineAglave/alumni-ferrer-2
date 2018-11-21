@@ -16,18 +16,6 @@
   width: 100%;
   background-position: center; }
 
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  text-align: center;
-  font-size: 2rem;
-  letter-spacing: 1vw;
-  text-transform: uppercase;
-  color: black; }
-
-h1 span {
-  letter-spacing: initial;
-  font-size: 8rem; }
-
 p {
   font-family: 'Fira Sans', sans-serif; }
 
@@ -53,6 +41,13 @@ h2::before {
   margin-top: 17px; }
 
 .box {
+  width: 90%;
+  height: 21vh;
+  margin-top: -17vh;
+  position: relative;
+  z-index: 1; }
+
+.box2 {
   width: 90%;
   height: 21vh;
   margin-top: -17vh;
@@ -86,6 +81,9 @@ h2::before {
 .category-arts-appliques .box {
   background-color: #74b626; }
 
+.category-arts-appliques .box2 {
+  background-color: #74b626; }
+
 .category-arts-appliques .actu h4::before {
   content: 'Arts-appliques';
   font-family: 'Montserrat', sans-serif; }
@@ -115,6 +113,9 @@ h2::before {
   border-bottom: 2px solid #f49500; }
 
 .category-economique-cooremans .box {
+  background-color: #f49500; }
+
+.category-economique-cooremans .box2 {
   background-color: #f49500; }
 
 .category-economique-cooremans .actu h4::before {
@@ -148,6 +149,9 @@ h2::before {
 .category-paramedical .box {
   background-color: #db1b0e; }
 
+.category-paramedical .box2 {
+  background-color: #db1b0e; }
+
 .category-paramedical .actu h4::before {
   content: 'Paramedical';
   font-family: 'Montserrat', sans-serif; }
@@ -177,6 +181,9 @@ h2::before {
   border-bottom: 2px solid #1393cc; }
 
 .category-pedagogique-bulls .box {
+  background-color: #1393cc; }
+
+.category-pedagogique-bulls .box2 {
   background-color: #1393cc; }
 
 .category-pedagogique-bulls .actu h4::before {
@@ -210,6 +217,9 @@ h2::before {
 .category-social-cooremans .box {
   background-color: #f5e969; }
 
+.category-social-cooremans .box2 {
+  background-color: #f5e969; }
+
 .category-social-cooremans .actu h4::before {
   content: 'Social';
   font-family: 'Montserrat', sans-serif; }
@@ -239,6 +249,9 @@ h2::before {
   border-bottom: 2px solid #956187; }
 
 .category-technique .box {
+  background-color: #956187; }
+
+.category-technique .box2 {
   background-color: #956187; }
 
 .category-technique .actu h4::before {
@@ -376,6 +389,13 @@ h5 {
   z-index: 1;
   left: -8%; }
 
+.single .box2 {
+  width: 90%;
+  height: 15vh;
+  margin-top: -11vh;
+  position: relative;
+  z-index: 1; }
+
 .single .col-6 p {
   text-align: justify; }
 
@@ -418,6 +438,43 @@ h5 {
   font-family: "Fira Sans", sans-serif;
   padding-left: 5%; }
 
+h1 {
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  letter-spacing: 1vw;
+  text-transform: uppercase;
+  color: black; }
+
+h1 span {
+  font-size: 2rem;
+  letter-spacing: initial; }
+
+.ngg-galleryoverview {
+  text-align: left !important; }
+
+.switch a {
+  color: red !important; }
+
+.max {
+  max-width: 240px; }
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 1.5rem; }
+  h1 span {
+    font-size: 5rem; } }
+
+@media (min-width: 992px) {
+  .ct-news h4 {
+    width: 35%; } }
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2rem; }
+  h1 span {
+    font-size: 8rem; } }
+
 .titlebefore::before {
   content: "";
   position: absolute;
@@ -447,7 +504,7 @@ a:hover {
     font-family: "Fira Sans", sans-serif;
     background-color: white;
     margin-top: -10px;
-    width: 35%; }
+    width: 50%; }
   .ct-news h3 {
     font-size: 22px;
     font-family: "Montserrat", sans-serif; }

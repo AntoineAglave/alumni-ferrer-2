@@ -35,7 +35,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top nav">
                     <nav class="navbar navbar-light">
                     <a href="<?php echo home_url(); ?>" class="navbar-brand" href="#">
-                    <img src="http://www.he-ferrer.eu/sites/default/files/heff_logo.png" width="100"  alt="">
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" width="100"  alt="">
                       </a>
                     </nav>
 							
