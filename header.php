@@ -43,6 +43,7 @@
 					  <div class="collapse navbar-collapse" id="navbarNav">
 							 
 							 <?php html5blank_nav(); ?>
+						  	<?php echo do_shortcode('[theme_switcha_select text="Choisir un thème"]'); ?>
 						</div> 
 					</nav>
 					<!-- /nav -->
